@@ -1,0 +1,119 @@
+/*
+p {
+    font-family: "Montserrat", Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 32px;
+    text-align: center;
+    color: #FF0000;
+
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+*/
+
+/*
+body {
+    background-color: #424242;
+}
+
+div {
+    background-image: url("https://www.amoreaquattrozampe.it/wp-content/uploads/2019/04/cane-simpatico-compressed.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-image: linear-gradient(125deg,rgba(224, 16, 172, 1) 0%, rgba(255, 174, 0, 1) 100%);
+
+    background-color: red;
+    opacity: 0.6;
+}
+*/
+
+/* 
+* {
+    font-family: "Montserrat", Helvetica, sans-serif;
+}
+
+p {
+    color: red !important;
+}
+
+.blue-text {
+    color: blue;
+}
+*/
+
+
+/* 
+div {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+*/
+
+
+/* 
+p {
+    background-color: red;
+}
+
+:qualcosa è pseudo-classe
+p:hover {
+    background-color: blue;
+}
+*/
+
+/* input:focus {
+    background-color: yellow;
+} */
+
+/*
+.btn {
+    background-color: #ff9800;
+}
+
+.btn:hover {
+    background-color: blue;
+    color: white;
+}
+*/
+
+/* a {
+    color: #ff9800;
+} */
+
+
+/* 
+ul {
+    list-style: none;
+}
+*/
+
+/*
+.container p {
+    background-color: red;
+}
+
+.container > p {
+    background-color: red;
+}
+
+h1, p, .elementiBelli {
+    background-color: blue;
+    color: red;
+}
+*/
+
+
+.blue-text {
+    color: blue;
+}
+
+.red-text {
+    color: red;
+}
+
+
