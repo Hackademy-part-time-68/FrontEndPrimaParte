@@ -1,0 +1,146 @@
+
+
+
+/*
+p {
+
+    border-top-width: 20px;
+    border-top-style: solid;
+    border-top-color: green;
+
+    shorthand
+    border-top: 20px solid green;
+    border-left: 20px solid green;
+
+    shorthand - width style color
+    border: 20px solid green;
+
+    border: 8px solid green;
+    border-radius: 24px;
+
+
+    padding-top: 48px;
+    padding-right: 36px;
+    padding-bottom: 24px;
+    padding-left: 12px;
+
+    shorthand
+    padding: 48px 36px 24px 12px;
+    padding: 48px 24px; y x
+    padding: 50px;
+
+    width: 300px;
+    height: 150px;
+
+    background-color: red;
+}
+*/
+
+/* CSS Reset - eliminando il CSS di default del browser */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+p {
+    margin: 50px 0;
+    border: 10px solid green;
+    padding: 50px;
+
+    width: 50%;
+    height: 150px;
+
+    background-color: red;
+}
+*/
+
+/*
+.container {
+    margin: 48px;
+    box-shadow: 0px 8px 32px 10px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgb(191, 191, 191);
+    padding: 24px;
+    background-color: red;
+}
+*/
+
+/*
+margin collapsing
+p {
+    margin: 48px 0;
+    padding: 24px;
+    background-color: red;
+}
+*/
+
+/* .container {
+}
+
+.container > p {
+    margin-left: auto;
+    width: 200px;
+    background-color: red;
+} */
+
+
+/*
+p {
+    max-width: 500px;
+    min-width: 500px;
+
+    background-color: red;
+}
+*/
+
+
+
+/*
+span {
+    display: inline-block;
+    padding: 48px;
+
+    background-color: blue;
+    color: white;
+}
+*/
+/*
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 400px;
+
+    background-color: blue;
+}
+
+.item {
+    border: 2px solid red;
+    padding: 24px;
+    color: white;
+}
+*/
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    
+
+    background-color: blue;
+}
+
+.item {
+    border: 2px solid red;
+    padding: 24px;
+
+    width: 50%;
+
+    color: white;
+}
