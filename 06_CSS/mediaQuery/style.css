@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: red;
+}
+
+/* a partire da 600px di larghezza di schermo in su */
+@media screen and (min-width: 600px) {
+
+    h1 {
+        color: green;
+    }
+
+    .paraBello {
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 900px) {
+
+    h1 {
+        color: yellow;
+    }
+}
+
