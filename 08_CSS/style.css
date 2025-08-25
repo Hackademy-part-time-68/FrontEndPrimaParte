@@ -1,0 +1,40 @@
+:root {
+    --primary-color: rgb(36, 36, 184);
+    --accent-color: #18e90d;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: var(--accent-color);
+}
+
+h1 {
+    margin-bottom: 1.5rem;
+    font-size: 4rem;
+    background-color: var(--primary-color);
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+    background-color: var(--primary-color);
+}
+
+a {
+    color: var(--accent-color);
+}
+
+p {
+    /* 2 x il font-size di base */
+    margin-bottom: 1rem;
+    font-size: calc(0.8rem + 1vw);    
+}
+
+.btn {
+    background-color: var(--accent-color);
+}
